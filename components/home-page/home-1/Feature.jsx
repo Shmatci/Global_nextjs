@@ -6,12 +6,12 @@ const Feature = () => {
       background: "#fffee7",
       title: (
         <>
-          Regulated by <br /> WICO.
+          We classify and register your medical devices across all continets.
         </>
       ),
-      description: "100% Reliable",
+      description: "Regulatory Issues",
       icon: "images/icon/icon_100.svg",
-      width: "169",
+      width: "129",
       height: "165",
       delay: "100",
     },
@@ -19,12 +19,12 @@ const Feature = () => {
       background: "#FBF1FF",
       title: (
         <>
-          Get Instant support <br /> all day.
+          Finding the best and especially trustworthy partner to be your distribution partner. 
         </>
       ),
-      width: "202",
+      width: "129",
       height: "170",
-      description: "Claim Support",
+      description: "Distribution / Sales",
       icon: "images/icon/icon_101.svg",
       delay: "200",
     },
@@ -32,12 +32,25 @@ const Feature = () => {
       background: "#EEFBFA",
       title: (
         <>
-          Unbiased advice <br /> from expert.
+          Simed Global can act as your Authorized Representative or Responsible Person in both Europe and also within the UK.
         </>
       ),
-      width: "175",
+      width: "129",
       height: "175",
-      description: "Consultation",
+      description: "Authorised Representative",
+      icon: "images/icon/icon_102.svg",
+      delay: "300",
+    },
+    {
+      background: "#EEFBFA",
+      title: (
+        <>
+           The regulatory Importer is similar to an EU Authorized Representative, and you must appoint one. 
+        </>
+      ),
+      width: "129",
+      height: "175",
+      description: "Importer",
       icon: "images/icon/icon_102.svg",
       delay: "300",
     },
@@ -47,7 +60,7 @@ const Feature = () => {
     <>
       {features.map((feature, index) => (
         <div
-          className="col-lg-4 col-sm-6"
+          className="col-lg-6 col-sm-6"
           key={index}
           data-aos="fade-up"
           data-aos-delay={feature.delay}
@@ -61,7 +74,6 @@ const Feature = () => {
             <Image
               width={feature.width}
               height={feature.height}
-              layout="intrinsic"
               src={feature.icon}
               alt="icon"
               className="position-absolute"

@@ -80,13 +80,6 @@ const ContactForm = () => {
         {/* End .col-12 */}
       </div>
       {/* End .row */}
-
-      <div className="fs-16 text-center mt-25">
-        <span className="opacity-75">Been here before?</span>{" "}
-        <a href="#" className="tx-dark fw-500">
-          Check your query
-        </a>
-      </div>
     </form>
   );
 };

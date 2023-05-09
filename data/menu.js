@@ -64,15 +64,11 @@ export const pagesItems = [
   },
 ];
 
-export const portfolioItems = [
-  { name: "Portfolio 01", link: "/portfolio/portfolio-v1" },
-  { name: "Portfolio 02", link: "/portfolio/portfolio-v2" },
-  { name: "Portfolio 03", link: "/portfolio/portfolio-v3" },
-  { name: "Portfolio 04", link: "/portfolio/portfolio-v4" },
-  { name: "Portfolio 05", link: "/portfolio/portfolio-v5" },
-  { name: "Portfolio 06", link: "/portfolio/portfolio-v6" },
-  { name: "Portfolio 07", link: "/portfolio/portfolio-v7" },
-  { name: "Portfolio Details", link: "/portfolio/1" },
+export const tttItems = [
+  { name: "- Tomorrow's Technology Today", link: "/ttt" },
+  { name: "- POC Blood Tests", link: "/ttt/poc" },
+  { name: "- EarWell", link: "https://www.earwellclinics.com" },
+  { name: "- Self Health Tests", link: "/ttt/self-health-tests" },
 ];
 
 export const blogItems = [

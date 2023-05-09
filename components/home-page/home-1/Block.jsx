@@ -30,11 +30,6 @@ const Block = () => {
               Partnered with us so that you can compare easily &amp;
               transparently
             </p>
-            <img
-              src="/images/shape/shape_138.svg"
-              alt="sahpe"
-              className="lazy-img shapes shape-one"
-            />
           </div>
           {/* /.block-wrapper */}
         </div>
