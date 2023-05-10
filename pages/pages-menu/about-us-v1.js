@@ -10,7 +10,7 @@ import Link from "next/link";
 import VideoBlock from "../../components/about/VideoBlock";
 import Counter from "../../components/about/Counter";
 
-const AboutUsV1 = () => {
+const AboutUs = () => {
   const features = [
     { text: "Amazing communication." },
     { text: "Best trending designing experience." },
@@ -27,7 +27,7 @@ const AboutUsV1 = () => {
 
   return (
     <>
-      <Seo pageTitle="About Us V1" />
+      <Seo pageTitle="About Us" />
 
       {/* <!-- 
       =============================================
@@ -340,4 +340,4 @@ const AboutUsV1 = () => {
   );
 };
 
-export default AboutUsV1;
+export default AboutUs;

@@ -55,7 +55,7 @@ const MainMenu = () => {
           <li className="nav-item  dropdown">
             <a
               className="nav-link"
-              href="/about"
+              href="/pages-menu/about-us-v1"
               role="button"
               data-bs-auto-close="outside"
               aria-expanded="false"
