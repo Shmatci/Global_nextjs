@@ -215,13 +215,6 @@ const AboutUs = () => {
           {/* /.bg-wrapper */}
         </div>
       </div>
-      {/* /.fancy-short-banner-sixteen */}
-
-      {/* 
-        =============================================
-        Contact Section One
-        ============================================== 
-        */}
       <DefaultFooter />
     </>
   );

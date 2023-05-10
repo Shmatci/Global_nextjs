@@ -1,16 +1,12 @@
 import Link from "next/link";
 import Seo from "../../components/common/Seo";
-import Footer from "../../components/footer/Footer";
+import DefaultFooter from "../../components/footer/DefaultFooter";
 import DefaulHeader from "../../components/header/DefaulHeader";
-import AppBanner from "../../components/home-page/home-1/AppBanner";
 import Banner from "../../components/home-page/home-1/Banner";
 import Block from "../../components/home-page/home-1/Block";
 import ContactForm from "../../components/home-page/home-1/ContactForm";
 import Feature from "../../components/home-page/home-1/Feature";
 import Hero from "../../components/home-page/home-1/Hero";
-import IntroAbout from "../../components/home-page/home-1/IntroAbout";
-import Service from "../../components/home-page/home-1/Service";
-import Testimonial from "../../components/home-page/home-1/Testimonial";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
 
 const HomePage = () => {
@@ -111,13 +107,8 @@ const HomePage = () => {
 				Footer
 			=====================================================
 			*/}
-      <div className="footer-style-ten theme-basic-footer zn2 position-relative">
-        <div className="container">
-            <div className="row justify-content-between">              
-              <Footer />
-            </div>
-        </div>
-      </div>
+          
+      <DefaultFooter />
     </>
   );
 };

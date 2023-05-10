@@ -9,11 +9,6 @@ const contact = () => {
   return (
     <>
       <Seo pageTitle="Contact" />
-      {/* <!-- 
-      =============================================
-      Theme Default Menu
-      ============================================== 	
-      --> */}
       <DefaulHeader />
 
       {/* 
@@ -35,11 +30,6 @@ const contact = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
-          src="/images/shape/shape_172.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
       </div>
 
       {/* 
@@ -59,17 +49,18 @@ const contact = () => {
           <div className="row">
             <div className="col-lg-8 col-md-9 m-auto">
               <h2 className="tx-dark text-center mt-100 mb-80 lg-mt-40 lg-mb-40 wow fadeInUp">
-                Any question? Send us message.
+                Any question? <br />Send us message.
               </h2>
             </div>
-            <div className="col-xl-11 m-auto">
+            <div className="col-xl-5 col-lg-6 ">
+              <div className="form-style-two md-mb-40">
               <ContactForm />
+              </div>
               {/* /.form-style-one */}
             </div>
           </div>
         </div>
         {/* End .container */}
-        <Map />
       </div>
 
       {/* 

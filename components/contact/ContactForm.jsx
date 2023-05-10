@@ -52,7 +52,7 @@ const ContactForm = () => {
           {/* End .col-12 */}
 
           <div className="col-12">
-            <button className="btn-twentyOne fw-500 tran3s d-block">
+            <button className="btn-twentyTwo fw-500 tran3s d-block">
               Send Message
             </button>
           </div>

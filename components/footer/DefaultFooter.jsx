@@ -28,20 +28,10 @@ const DefaultFooter = () => {
                 We only send interesting and relevant emails.
               </div>
             </div>
-            {/* End .col-xl-4 */}
           </div>
-          {/* End .row */}
         </div>
-        {/* /.container */}
       </div>
-      {/* /.bg-wrapper */}
       <CopyrightFooter2 />
-      {/* /.bottom-footer */}
-      <img
-        src="/images/shape/shape_173.svg"
-        alt="shape"
-        className="lazy-img shapes shape-one"
-      />
     </div>
   );
 };
