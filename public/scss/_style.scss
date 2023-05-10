@@ -899,86 +899,25 @@ body .btn-twentyOne {
   line-height: 50px;
   padding: 0 35px;
   border-radius: 30px;
-  background: var(--prime-ten);
-  color: #fff;
+  background: #fff;
+  color: var(--prime-ten);
   letter-spacing: -0.36px;
 }
 body .btn-twentyOne:hover {
-  background: #000;
+  background: #f1f1f1;
 }
 body .btn-twentyTwo {
-  line-height: 55px;
-  padding: 0 42px;
-  border-radius: 7px;
-  background: var(--prime-ten);
+  line-height: 50px;
+  padding: 0 35px;
+  border-radius: 30px;
+  background: #00869d;
   color: #fff;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.36px;
 }
 body .btn-twentyTwo:hover {
-  background: #000;
+  background: #f1f1f1;
 }
-body .btn-twentyThree {
-  width: 122px;
-  height: 122px;
-  background: #000;
-  border-radius: 0 50% 0 0;
-  transition: all 0.3s ease-in-out;
-}
-body .btn-twentyThree:hover {
-  border-radius: 50%;
-  background: var(--prime-ten);
-}
-body .btn-twentyFour {
-  color: #000;
-  padding: 16px 36px;
-  border: 2px solid #000;
-  background: var(--prime-eleven);
-}
-body .btn-twentyFour::before {
-  position: absolute;
-  content: "";
-  top: -16px;
-  height: 14px;
-  width: calc(100% + 3px);
-  left: 6px;
-  transform: skewX(-45deg);
-  border: 2px solid #000;
-  border-bottom: none;
-  transition: all 0.3s ease-in-out;
-}
-body .btn-twentyFour::after {
-  position: absolute;
-  content: "";
-  right: -16px;
-  height: calc(100% + 3px);
-  width: 15px;
-  top: -8px;
-  transform: skewY(-45deg);
-  border: 2px solid #000;
-  border-left: none;
-  border-top: none;
-  transition: all 0.3s ease-in-out;
-}
-body .btn-twentyFour:hover:after,
-body .btn-twentyFour:hover:before {
-  background: #f3c755;
-  border-color: #f3c755;
-}
-body .btn-twentyFour:hover {
-  border-color: transparent;
-}
-body .btn-twentyFive {
-  line-height: 51px;
-  padding: 0 27px;
-  font-size: 18px;
-  color: var(--prime-eleven);
-  border-radius: 7px;
-  border: 2px solid var(--prime-eleven);
-}
-body .btn-twentyFive:hover {
-  background: var(--prime-eleven);
-  color: #000;
-}
+
 /*^^^^^^^^^^^^^^^^^^^^^^^ Pagination ^^^^^^^^^^^^^^^^^^^^^^*/
 .page-pagination-one ul li {
   font-weight: 500;
@@ -8733,7 +8672,7 @@ body .btn-twentyFive:hover {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Fancy Short Banner Sixteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-short-banner-sixteen .bg-wrapper {
-  background: #1f1f1f;
+  background: #00869d;
   border-radius: 40px;
 }
 .fancy-short-banner-sixteen .main-title {
@@ -8741,7 +8680,7 @@ body .btn-twentyFive:hover {
   line-height: 1.16em;
 }
 .fancy-short-banner-sixteen .sc-title {
-  color: var(--prime-ten);
+  color: #fff;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .inner-banner-one {

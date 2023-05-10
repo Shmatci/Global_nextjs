@@ -127,12 +127,11 @@ const AboutUs = () => {
                 regulatory approvals, validation and qualification of the technologies in our own 
                 laboratory positioning us to take the products to market as quickly as possible.
                 </p>
-                <div className="btn-eighteen position-relative d-inline-block tx-dark">
-                  <Link href="/page-menu/about-us-v1" className="fw-500 tran3s">
-                    More About solution
-                    <i className="fa-solid fa-angle-right" />
-                  </Link>
-                </div>
+                <p className="fs-20 pt-10 pb-30 lg-pb-20">
+                Whether you are an early stage company/entrepeneur seeking to work with us, or an 
+                investor seeking positive investment opportunities, Simed Global is your ideal partner 
+                for early stage high growth investments in a lucrative expanding market.
+                </p>
               </div>
               {/* /.block-style-seven */}
             </div>
