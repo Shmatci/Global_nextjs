@@ -1,12 +1,5 @@
 import Link from "next/link";
-import {
-  tttItems,
-} from "../../data/menu";
-import {
-  isActiveLink,
-  isActiveParent,
-  isActiveParentChaild,
-} from "../../utils/linkActiveChecker";
+import { tttItems } from "../../data/menu";
 
 import { useRouter } from "next/router";
 
@@ -52,10 +45,10 @@ const MainMenu = () => {
           </li>
           {/* End li (home mega menu) */}
 
-          <li className="nav-item  dropdown">
+          <li className="nav-item">
             <a
               className="nav-link"
-              href="/pages-menu/about-us-v1"
+              href="/about/about-us"
               role="button"
               data-bs-auto-close="outside"
               aria-expanded="false"
